@@ -15,10 +15,10 @@ import org.apache.commons.mail.SimpleEmail;
  */
 public class Email {
     
-    private final String username = "chaquiln@gmail.com";
-    private final String password = "cagas1391993";
+    private final String username = "fonciovazdomingos@gmail.com";
+    private final String password = "fonciovaz";
     private final String smtp = "smtp.googlemail.com";
-    private final String nome = "Chaquil Nobrega";
+    private final String nome = "Foncio Domingos";
     
     public void sendSimpleEmail(String mail) throws EmailException{
         SimpleEmail email = new SimpleEmail();
